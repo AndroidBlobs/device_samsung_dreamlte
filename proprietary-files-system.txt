@@ -1,0 +1,7 @@
+-app/ImsSettings/ImsSettings.apk
+-priv-app/HotwordEnrollmentOKGoogleCORTEXM4/HotwordEnrollmentOKGoogleCORTEXM4.apk
+etc/firmware/cs47l92-dsp1-dsd-176.4kHz.wmfw
+etc/firmware/cs47l92-dsp1-dsd-352.8kHz.wmfw
+etc/firmware/cs47l92-dsp1-trace.wmfw
+etc/nfcee_access.xml
+lib64/libaptX_encoder.so

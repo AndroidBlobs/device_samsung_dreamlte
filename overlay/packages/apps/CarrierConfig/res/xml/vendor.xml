@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<carrier_config_list>
+    <carrier_config>
+        <string name="ratchet_rat_families" />
+        <int name="cdma_3waycall_flash_delay_int" value="0" />
+    </carrier_config>
+    <carrier_config mcc="311" mnc="480">
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
+            <item value="*71" />
+            <item value="*72" />
+            <item value="*73" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="311" mnc="270">
+        <string-array name="dial_string_replace_string_array" num="2">
+            <item value="*611:+19085594899" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
+            <item value="*71" />
+            <item value="*72" />
+            <item value="*73" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="312" mnc="770">
+        <string-array name="dial_string_replace_string_array" num="2">
+            <item value="*611:+19085594899" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
+            <item value="*71" />
+            <item value="*72" />
+            <item value="*73" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="310" mnc="004">
+        <string-array name="dial_string_replace_string_array" num="2">
+            <item value="*611:+19085594899" />
+            <item value="*86:+1MDN" />
+        </string-array>
+        <string-array name="call_forwarding_blocks_while_roaming_string_array" num="3">
+            <item value="*71" />
+            <item value="*72" />
+            <item value="*73" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="311" mnc="480" gid1="BA01450000000000" gid2="A300000000000000">
+        <string-array name="dial_string_replace_string_array" num="4">
+            <item value="611:+18889364968" />
+            <item value="*611:+18889364968" />
+            <item value="\#611:+18889364968" />
+            <item value="*86:+1MDN" />
+        </string-array>
+    </carrier_config>
+    <carrier_config mcc="204" mnc="04" gid1="BA01450000000000" gid2="A300000000000000">
+        <string-array name="dial_string_replace_string_array" num="4">
+            <item value="611:+18889364968" />
+            <item value="*611:+18889364968" />
+            <item value="\#611:+18889364968" />
+            <item value="*86:+1MDN" />
+        </string-array>
+    </carrier_config>
+</carrier_config_list>
